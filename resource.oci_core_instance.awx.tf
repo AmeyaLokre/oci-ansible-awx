@@ -10,7 +10,7 @@ resource "oci_core_instance" "awx" {
     hostname_label   = "awx"
     subnet_id        = var.subnet_ocid
   }
-  display_name = "awx"
+  display_name = "awx-1"
   fault_domain = var.server_fd
   launch_options {
     boot_volume_type        = "PARAVIRTUALIZED"
